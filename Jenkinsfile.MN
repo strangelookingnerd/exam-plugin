@@ -17,7 +17,7 @@ pipeline{
         }
     }
     tools {
-        jdk 'java8_x86_64'
+        jdk 'java11_x86_64'
         maven 'M3'
         'com.cloudbees.jenkins.plugins.customtools.CustomTool' 'curl'
     }
